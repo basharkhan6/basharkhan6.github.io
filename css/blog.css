@@ -1,0 +1,47 @@
+body {
+    color: var(--dark-color);
+    font-family: 'Roboto Mono', monospace;
+    background-color: inherit;
+    background-image: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700 !important;
+    letter-spacing: 0.10rem;
+}
+
+.blog-nav {
+    padding: 2rem;
+}
+.txt-blog-logo i {
+    color: var(--dark-color);
+    text-transform: none;
+}
+
+.blog-banner {
+    display: flex;
+    justify-content: space-around;
+}
+.blog-banner-txt {
+    width: 40%;
+    font-size: 3.5rem;
+}
+.blog-banner-txt span {
+    color: var(--primary-color);
+}
+.blog-side-banner {
+    margin-top: -2rem;
+}
+
+.blog-list-container {
+
+}
+
+
+@media (max-width: 600px) {
+    .blog-banner-txt {
+        width: 70%;
+        font-size: 1.25rem;
+        padding-left: 2rem;
+    }
+}
